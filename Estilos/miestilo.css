@@ -1,5 +1,64 @@
+body 
+{ font-size: 16px; } 
+ @media only screen and (max-width: 1600px) 
+ { body { font-size: 14px; } } 
+  @media only screen and (min-width: 768px) 
+  { body { font-size: 18px;} }
+
+
+h3 
+{
+    font-size: 24px;
+}
+
+h4
+{
+font-size:  16px;
+
+}
+
 .productos{
 display: flex;
 flex-wrap: wrap;
 justify-content:space-between;
+}
+
+.misresenas
+{
+display: grid;
+grid-template-columns:4  ;
+grid-template-rows: 5;
+gap: 10 px;
+
+}
+.pinceles
+
+{
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.pinturas_latex
+{
+grid-column: 3;
+grid-row: 4;
+}
+
+.pinturas_al_agua
+{
+grid-column: 3;
+grid-row: 3;
+}
+
+.menbranas_asfalticas
+{
+grid-column: 3;
+grid-row: 1;
+
+}
+.enduido
+{
+grid-column: 3;
+grid-row: 2;
+
 }
